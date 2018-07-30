@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+.textCenter {
+    text-align: center;
+    text-align: top;
+}
+
+.lineHeight {
+    height: auto;
+    padding: 10%;
+}
+
+
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.mainText {
+    /*左寄せ、本文の色を指定*/
+    text-align: left;
+    color: #606060;
+}
+
+.mainTextTest {
+    /*左寄せ、本文の色を指定*/
+    /*デバッグ用*/
+    text-align: left;
+    color: #4169e1;
+}
+
+.highlight {
+    background: linear-gradient(transparent 50%, #ee82ee 20%);
+}
+
+.rowEqHeight {
+    /*カラムの高さを揃える*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 980px) {
+    /* 980px以上用（PC用）の記述 */
+    .topButton {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .intLogo {
+        width: 40%;
+        margin-bottom: 5px;
+    }
+
+    .topSection {
+        height: auto;
+    }
+
+    .captionLogo {
+        width: 80%;
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+
+    /*マウスオーバー処理*/
+    .mouseOver a:hover img {
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+        -ms-filter: "alpha(opacity=70)";
+    }
+
+    .entryBar {
+        /*スクロールすると下の方に出てくるENTRYバー*/
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+
+        height: 50px;
+        z-index: 999;
+
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        background: #f5e929;
+
+        font-size: 160%;
+
+        display: none;
+    }
+
+    .twitterButton {
+        position: fixed;
+        bottom: 95px;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .returnButton {
+        position: fixed;
+        bottom: 15px;
+        right: 20px;
+        z-index: 999;
+    }
+    .intTopImg {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        width: 25%;
+    }
+
+    .googleMap {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 75%;
+    }
+
+    .googleMap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    /* 768px - 979px用（タブレット用）の記述 */
+    .topButton {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .intLogo {
+        width: 60%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .topSection {
+        height: 100%;
+    }
+
+    .captionLogo {
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+
+    .mouseOver a:hover img {
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+        -ms-filter: "alpha(opacity=70)";
+    }
+
+    .entryBar {
+        /*スクロールすると下の方に出てくるENTRYバー*/
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+
+        height: 50px;
+        z-index: 999;
+
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        background: #f5e929;
+
+        font-size: 160%;
+
+        display: none;
+    }
+
+    .twitterButton {
+        position: fixed;
+        bottom: 95px;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .returnButton {
+        position: fixed;
+        bottom: 15px;
+        right: 20px;
+        z-index: 999;
+    }
+    .intTopImg {
+        margin-top: 60%;
+        margin-bottom: 60%;
+        width: 40%;
+    }
+
+    .googleMap {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 75%;
+    }
+
+    .googleMap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* 480px - 767px用（タブレット／スマートフォン用）の記述 */
+    .topButton {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .intLogo {
+        width: 80%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .topSection {
+        height: 100%;
+    }
+
+    .entryBar {
+        /*スクロールすると下の方に出てくるENTRYバー*/
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+
+        height: 50px;
+        z-index: 999;
+
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        background: #f5e929;
+
+        font-size: 160%;
+    }
+
+    .twitterButton {
+        bottom: 180px;
+        right: 20px;
+        z-index: 999;
+        display: none;
+    }
+
+    .returnButton {
+        position: fixed;
+        bottom: 65px;
+        right: 15px;
+        z-index: 999;
+    }
+    .intTopImg {
+        margin-top: 80%;
+        margin-bottom: 90%;
+        width: 40%;
+    }
+
+    .googleMap {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 75%;
+    }
+
+    .googleMap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    /* 479px以下用（スマートフォン用）の記述 */
+    .topButton {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    .intLogo {
+        width: 75%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .topSection {
+        height: 100%;
+    }
+
+    .captionLogo {
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+    .entryBar {
+        /*スクロールすると下の方に出てくるENTRYバー*/
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+
+        height: 50px;
+        z-index: 999;
+
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        background: #f5e929;
+
+        font-size: 160%;
+    }
+
+    .twitterButton {
+        bottom: 180px;
+        right: 20px;
+        z-index: 999;
+        display: none;
+    }
+
+    .returnButton {
+        position: fixed;
+        bottom: 65px;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .intTopImg {
+        margin-top: 70%;
+        margin-bottom: 90%;
+        width: 40%;
+    }
+
+    .googleMap {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 75%;
+    }
+
+    .googleMap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}
