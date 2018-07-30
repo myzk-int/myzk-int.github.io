@@ -213,8 +213,8 @@ body {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    /* 480px - 767px用（タブレット／スマートフォン用）の記述 */
+@media screen and (min-width: 480px) and (max-width: 769px) {
+    /* 480px - 769px用（タブレット／スマートフォン用）の記述 */
     .topButton {
         width: 50%;
         margin-bottom: 10px;
@@ -262,9 +262,9 @@ body {
         z-index: 999;
     }
     .intTopImg {
-        margin-top: 80%;
+        margin-top: 50%;
         margin-bottom: 90%;
-        width: 40%;
+        width: 60%;
     }
 
     .googleMap {
@@ -340,7 +340,7 @@ body {
     .intTopImg {
         margin-top: 70%;
         margin-bottom: 90%;
-        width: 40%;
+        width: 60%;
     }
 
     .googleMap {
