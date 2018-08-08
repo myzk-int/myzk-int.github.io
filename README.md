@@ -29,7 +29,7 @@ int_t.svg
 （例）
 about_b.svg
 
-<img src="sample/about_b.svg" width="40%">
+<img src="sample/about_b.svg" width="30%">
 
 *_c.svg
 となっているものは、見出し用の画像になります。
@@ -37,7 +37,7 @@ about_b.svg
 （例）
 about_c.svg
 
-<img src="sample/about_c.svg" width="40%">
+<img src="sample/about_c.svg" width="70%">
 
 *_t.svg
 となっているものは、ページトップに表示している画像です。
@@ -67,20 +67,20 @@ Bootstrap4
 Bootstrap
 を
 CDN
-を使用せずにローカルに置く場合は注意が必要です。
-[CDNとは？](https://tonari-it.com/bootstrap-cdn/)
+を使用せずにローカルに置く場合はバージョンに注意が必要です。
+<a href="https://tonari-it.com/bootstrap-cdn/" target="_blank">CDNとは？</a>
 
 Bootstrap3
 と
 Bootstrap4
 の違いなどは次の記事が参考になるかもしれません。
-[参考記事](https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html)
+<a href="https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html" target="_blank">参考記事</a>
 
 # 制作
 int実行委員会（
-[Twitter](https://twitter.com/int08063060)
+<a href="https://twitter.com/int08063060" target="_blank">Twitter</a>
 /
-[e-mail](hackathonint@gmail.com)
+<a href="mailto:hackathonint@gmail.com">e-mail</a>
 ）
 <!--
 ( 
