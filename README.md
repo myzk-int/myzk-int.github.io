@@ -68,17 +68,17 @@ Bootstrap
 を
 CDN
 を使用せずにローカルに置く場合はバージョンに注意が必要です。
-<a href="https://tonari-it.com/bootstrap-cdn/" target="_blank">CDNとは？</a>
+[CDNとは？][cdn]
 
 Bootstrap3
 と
 Bootstrap4
 の違いなどは次の記事が参考になるかもしれません。
-<a href="https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html" target="_blank">参考記事</a>
+[参考記事][difference]
 
 # 制作
 int実行委員会（
-<a href="https://twitter.com/int08063060" target="_blank">Twitter</a>
+[Twitter][twitter]
 /
 <a href="mailto:hackathonint@gmail.com">e-mail</a>
 ）
@@ -89,3 +89,7 @@ int実行委員会（
     [コーディング](https://github.com/Takahiro55555)
 )
 -->
+
+[cdn]:https://tonari-it.com/bootstrap-cdn/
+[difference]:https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html
+[twitter]:https://twitter.com/int08063060
