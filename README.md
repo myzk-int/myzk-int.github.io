@@ -82,13 +82,6 @@ int実行委員会（
 /
 <a href="mailto:hackathonint@gmail.com">e-mail</a>
 ）
-<!--
-( 
-    [画像・デザイン](https://twitter.com/shimonitanegii)
-    /
-    [コーディング](https://github.com/Takahiro55555)
-)
--->
 
 [cdn]:https://tonari-it.com/bootstrap-cdn/
 [difference]:https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html
