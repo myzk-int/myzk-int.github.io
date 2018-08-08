@@ -45,13 +45,47 @@ about_c.svg
 ## sampleディレクトリ
 READMEに使用している画像などのサンプルファイルを置いているディレクトリになります。
 
-# 制作
-[int実行委員会](https://twitter.com/int08063060)
+# Bootstrapについて
+使用している
+Bootstrap
+は
+CDN
+を利用して読み込んでいます。
+Bootstrap
+のバージョンは
+3.3.7
+になります。
 
+2018-08-08
+現在の最新バージョンは
+4.1.2
+ですが、
+Bootstrap3
+と
+Bootstrap4
+の仕様が一部変更になっているようです。そのため、
+Bootstrap
+を
+CDN
+を使用せずにローカルに置く場合は注意が必要です。
+[CDNとは？](https://tonari-it.com/bootstrap-cdn/)
+
+Bootstrap3
+と
+Bootstrap4
+の違いなどは次の記事が参考になるかもしれません。
+[参考記事](https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html)
+
+# 制作
+int実行委員会（
+[Twitter](https://twitter.com/int08063060)
+/
+[e-mail](hackathonint@gmail.com)
+）
+<!--
 ( 
     [画像・デザイン](https://twitter.com/shimonitanegii)
     /
     [コーディング](https://github.com/Takahiro55555)
 )
-
-※まだ書きかけです。テスト期間が終わり次第書き上げます。
+-->
