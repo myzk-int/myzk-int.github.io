@@ -1,0 +1,44 @@
+/*BootstrapでNavbarにロゴ画像をいれるとズレる問題の解決法*/
+
+.navbarEntry {
+  background: url("../img/entry_b.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+
+
+.navbarAbout {
+  background: url("../img/about_b.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+
+.navbarTheme {
+  background: url("../img/theme_b.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+
+.navbarSummary {
+  background: url("../img/summary_b.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+
+.navbarSchedule {
+  background: url("../img/schedule_b.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+
+.navbarSponsor {
+  background: url("../img/sponsor_b.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
