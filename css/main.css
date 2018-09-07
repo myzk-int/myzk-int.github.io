@@ -52,6 +52,11 @@ body {
         width: 70%;
         margin-bottom: 10px;
     }
+    
+    .miyazakiUniversity{
+        width: 50%;
+        margin-bottom: 10px;
+    }
 
     .intLogo {
         width: 40%;
@@ -137,6 +142,11 @@ body {
         width: 45%;
         margin-bottom: 10px;
     }
+    
+    .miyazakiUniversity{
+        width: 35%;
+        margin-bottom: 10px;
+    }
 
     .intLogo {
         width: 60%;
@@ -219,7 +229,12 @@ body {
         width: 50%;
         margin-bottom: 10px;
     }
-
+    
+    .miyazakiUniversity{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    
     .intLogo {
         width: 80%;
         margin-bottom: 10px;
@@ -288,6 +303,11 @@ body {
     /* 479px以下用（スマートフォン用）の記述 */
     .topButton {
         width: 60%;
+        margin-bottom: 10px;
+    }
+    
+    .miyazakiUniversity{
+        width: 45%;
         margin-bottom: 10px;
     }
 
