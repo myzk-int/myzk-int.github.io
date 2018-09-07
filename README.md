@@ -83,6 +83,12 @@ int実行委員会（
 <a href="mailto:hackathonint@gmail.com">e-mail</a>
 ）
 
+画像・デザイン：かいくん（
+[Twitter][twitter_kaisan]
+）
+
 [cdn]:https://tonari-it.com/bootstrap-cdn/
 [difference]:https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html
 [twitter]:https://twitter.com/int08063060
+[twitter_kaisan]:https://twitter.com/shimonitanegii
+
