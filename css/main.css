@@ -53,6 +53,16 @@ body {
         margin-bottom: 10px;
     }
     
+    .nCreateLogo {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .supporterzLogo {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    
     .miyazakiUniversity{
         width: 60%;
         margin-bottom: 10px;
@@ -143,6 +153,16 @@ body {
         margin-bottom: 10px;
     }
     
+    .nCreateLogo {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .supporterzLogo {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    
     .miyazakiUniversity{
         width: 35%;
         margin-bottom: 10px;
@@ -230,6 +250,16 @@ body {
         margin-bottom: 10px;
     }
     
+    .nCreateLogo {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .supporterzLogo {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    
     .miyazakiUniversity{
         width: 45%;
         margin-bottom: 10px;
@@ -303,6 +333,16 @@ body {
     /* 479px以下用（スマートフォン用）の記述 */
     .topButton {
         width: 60%;
+        margin-bottom: 10px;
+    }
+    
+    .nCreateLogo {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .supporterzLogo {
+        width: 70%;
         margin-bottom: 10px;
     }
     
