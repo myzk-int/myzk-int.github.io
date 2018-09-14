@@ -23,7 +23,7 @@ about_c.svg
 int_t.svg
 ```
 
-*_b.svg
+* *_b.svg
 となっているものは、ボタン用の画像です。
 
 （例）
@@ -31,7 +31,14 @@ about_b.svg
 
 <img src="sample/about_b.svg" width="30%">
 
-*_c.svg
+* *_i.svg
+となっているものは、円形のボタン（アイコン）の画像です。
+
+（例）
+
+<img src="sample/mail_i.svg" width="15%">
+
+* *_c.svg
 となっているものは、見出し用の画像になります。
 
 （例）
@@ -39,11 +46,14 @@ about_c.svg
 
 <img src="sample/about_c.svg" width="70%">
 
-*_t.svg
+* *_t.svg
 となっているものは、ページトップに表示している画像です。
 
 ## organization_symbolsディレクトリ
 イベントを支援して頂いている企業、団体様のロゴを置いています。
+
+## htmlディレクトリ
+サブページのhtmlファイルを置いています。
 
 ## sampleディレクトリ
 READMEに使用している画像などのサンプルファイルを置いているディレクトリになります。
@@ -86,6 +96,10 @@ int実行委員会（
 <a href="mailto:hackathonint@gmail.com">e-mail</a>
 ）
 
+ウェブページ（
+[Web Page][web_page]
+)
+
 画像・デザイン：かいくん（
 [Twitter][twitter_kaisan]
 ）
@@ -94,4 +108,4 @@ int実行委員会（
 [difference]:https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html
 [twitter]:https://twitter.com/int08063060
 [twitter_kaisan]:https://twitter.com/shimonitanegii
-
+[web_page]:https://myzk-int.github.io
