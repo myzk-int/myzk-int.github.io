@@ -89,7 +89,7 @@
             ※見学の際は参加者への配慮をお願いいたします。
             <br><a href="../index.html">ホームへ戻る</a>
         </section>
-        
+
         <section class="row lineHeight textCenter">
             <h3>連絡先</h3>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -104,6 +104,12 @@
 
     </div>
 
+    <div id="returnHome">
+        <a href="../index.html" class="homeButton">
+        <img src="../img/homeIcon.svg" style="height: 60px; width: auto;">
+        </a>
+    </div>
+
     <footer style="background: #EEEEEE; text-align: center;">
         <br>
         <p>
@@ -113,7 +119,20 @@
         <br>
         <br>
     </footer>
-
+    
+    <script>
+        jQuery(function($) {
+            var retb = $('#returnHome');
+            $(retb).hide();
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $(retb).fadeIn();
+                } else {
+                    $(retb).fadeOut();
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

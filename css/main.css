@@ -122,6 +122,14 @@ body {
         right: 15px;
         z-index: 999;
     }
+    
+    .homeButton{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    
     .intTopImg {
         margin-top: 20%;
         margin-bottom: 20%;
@@ -221,6 +229,14 @@ body {
         right: 15px;
         z-index: 999;
     }
+    
+    .homeButton{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    
     .intTopImg {
         margin-top: 60%;
         margin-bottom: 60%;
@@ -306,6 +322,14 @@ body {
         right: 10px;
         z-index: 999;
     }
+    
+    .homeButton{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    
     .intTopImg {
         margin-top: 50%;
         margin-bottom: 90%;
@@ -394,6 +418,13 @@ body {
         position: fixed;
         bottom: 60px;
         right: 10px;
+        z-index: 999;
+    }
+    
+    .homeButton{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
         z-index: 999;
     }
 
