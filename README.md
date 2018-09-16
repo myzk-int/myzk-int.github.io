@@ -50,7 +50,7 @@ about_c.svg
 となっているものは、ページトップに表示している画像です。
 
 （例）
-about_c.svg
+int_t.svg
 
 <img src="sample/int_t.svg" width="40%">
 
