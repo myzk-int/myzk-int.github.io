@@ -95,7 +95,7 @@ Bootstrap4
 [参考記事][difference]
 
 # 制作
-int実行委員会（
+宮崎大学クラフター同好会（
 [Twitter][twitter]
 /
 <a href="mailto:hackathonint@gmail.com">e-mail</a>
