@@ -29,9 +29,16 @@
     <!--cssの自作クラス名はキャメルケースで記述-->
     <link rel="stylesheet" href="css/main.css" />
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <!--JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -65,22 +72,96 @@
                 <div class="center-block intTopImg" style="">
                     <img src="img/int_t.svg" alt="" style="">
                 </div>
-
-                <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKDQMgYFR-mNMlq5PTASGRTQGFt76hXWUVeTkoGgmaw-zABA/viewform?usp=sf_link" target="_blank"><img src="img/entry_b.svg" class="topButton"> </a>
-                </div>
-                <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#about"><img src="img/about_b.svg" class="topButton"> </a>
-                </div>
-                <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#theme"><img src="img/theme_b.svg" class="topButton"> </a>
-                </div>
-                <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#summary"><img src="img/summary_b.svg" class="topButton"> </a>
-                </div>
-                <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#schedule"><img src="img/schedule_b.svg" class="topButton"> </a>
-                </div>
-                <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#sponser"><img src="img/sponsor_b.svg" class="topButton"> </a>
-                </div>
             </div>
         </section>
+
+
+
+
+        <section class="row textCenter">
+            <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKDQMgYFR-mNMlq5PTASGRTQGFt76hXWUVeTkoGgmaw-zABA/viewform?usp=sf_link" target="_blank"><img src="img/entry_b.svg" class="topButton"> </a>
+            </div>
+            <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#about"><img src="img/about_b.svg" class="topButton"> </a>
+            </div>
+            <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#theme"><img src="img/theme_b.svg" class="topButton"> </a>
+            </div>
+            <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#summary"><img src="img/summary_b.svg" class="topButton"> </a>
+            </div>
+            <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#schedule"><img src="img/schedule_b.svg" class="topButton"> </a>
+            </div>
+            <div class="mouseOver col-xs-12 col-sm-12 col-md-4 col-lg-4"> <a href="#sponser"><img src="img/sponsor_b.svg" class="topButton"> </a>
+            </div>
+        </section>
+
+        <!-- Carousel(スライドショー)-->
+        <section id="carousel" class="row lineHeight textCenter">
+            <h3 class="font-l" id="he003">新着情報</h3>
+            <div class="height-s"></div>
+
+            <div id="c1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#c1" data-slide-to="0" class="active"></li>
+                    <li data-target="#c1" data-slide-to="1"></li>
+                    <li data-target="#c1" data-slide-to="2"></li>
+                    <li data-target="#c1" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="html/question.html">
+                            <img src="img/int_t.svg" class="center-block" style="width: 30%">
+                            <!--
+                            <div class="carousel-caption">
+                                <h4>Q&Aページ</h4>
+                            </div>
+                            -->
+                        </a>
+                    </div>
+                    <div class="item">
+                        
+                        <a href="html/question.html">
+                            <img src="img/int_t.svg" class="center-block" style="width: 30%">
+                            <!--
+                            <div class="carousel-caption">
+                                <h4>画像その2</h4>
+                            </div>
+                            -->
+                        </a>
+                        <h3>
+                            Q&Aページを作成しました
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <a href="html/question.html">
+                            <img src="img/int_t.svg" class="center-block" style="width: 30%">
+                            <!--
+                            <div class="carousel-caption">
+                                <h4>画像その3</h4>
+                            </div>
+                            -->
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="html/question.html">
+                            <img src="img/int_t.svg" class="center-block" style="width: 30%">
+                            <!--
+                            <div class="carousel-caption">
+                                <h4>画像その4</h4>
+                            </div>
+                            -->
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control left" href="#c1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#c1" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+        <!-- Carousel(スライドショー)-->
+
 
         <section id="about" class="row lineHeight textCenter">
             <div>
@@ -322,7 +403,7 @@
                         </tr>
                         <tr bgcolor="#ffd6ff">
                             <th>18:00~</th>
-                            <th>結果発表</th>
+                            <th>成果発表</th>
                         </tr>
                         <tr bgcolor="#ffd6ff">
                             <th>19:00~</th>
@@ -334,7 +415,7 @@
                         </tr>
                         <tr>
                             <th>21:00~</th>
-                            <th>閉会式</th>
+                            <th>結果発表・閉会式</th>
                         </tr>
                     </tbody>
                 </table>
