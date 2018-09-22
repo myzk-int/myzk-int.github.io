@@ -73,6 +73,11 @@ body {
         margin-bottom: 10px;
     }
 
+    .gamig {
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
     .tohruTsuzuraharaSama {
         width: 20%;
         margin-bottom: 10px;
@@ -196,6 +201,11 @@ body {
         margin-bottom: 10px;
     }
 
+    .gamig {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
     .intLogo {
         width: 60%;
         margin-bottom: 20px;
@@ -312,6 +322,11 @@ body {
         margin-bottom: 10px;
     }
 
+    .gamig {
+        width: 35%;
+        margin-bottom: 10px;
+    }
+
 
     /*Sponsor欄ここまで*/
     .intLogo {
@@ -414,6 +429,11 @@ body {
     }
 
     .tohruTsuzuraharaSama {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .gamig {
         width: 50%;
         margin-bottom: 10px;
     }
