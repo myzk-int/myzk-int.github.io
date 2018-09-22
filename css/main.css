@@ -58,6 +58,13 @@ body {
         margin-bottom: 10px;
     }
 
+    .aratanaInc {
+        width: 65%;
+        margin-bottom: 10px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
     .supporterzLogo {
         width: 70%;
         margin-bottom: 10px;
@@ -69,7 +76,7 @@ body {
     }
 
     .miyazakiCity {
-        width: 25%;
+        width: 50%;
         margin-bottom: 10px;
     }
 
@@ -196,6 +203,11 @@ body {
         margin-bottom: 10px;
     }
 
+    .aratanaInc {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
     .tohruTsuzuraharaSama {
         width: 30%;
         margin-bottom: 10px;
@@ -317,6 +329,11 @@ body {
         margin-bottom: 10px;
     }
 
+    .aratanaInc {
+        width: 55%;
+        margin-bottom: 10px;
+    }
+
     .tohruTsuzuraharaSama {
         width: 35%;
         margin-bottom: 10px;
@@ -425,6 +442,11 @@ body {
 
     .miyazakiCity {
         width: 55%;
+        margin-bottom: 10px;
+    }
+
+    .aratanaInc {
+        width: 70%;
         margin-bottom: 10px;
     }
 
