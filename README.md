@@ -1,4 +1,4 @@
-int 2018 ウェブページ
+int ハッカソン ウェブページ
 ====
 
 このリポジトリのウェブページは、ハッカソン「int～新しい遊びを作ろう～」のイベントページです。このREADMEは、今後の当イベントページ担当者に向けたものです。
@@ -95,13 +95,15 @@ Bootstrap4
 [参考記事][difference]
 
 # 制作
-宮崎大学クラフター同好会（
-[Twitter][twitter]
+宮崎大学Crafter同好会（
+[Twitter][twitter_crafter]
 /
 <a href="mailto:hackathonint@gmail.com">e-mail</a>
 ）
 
-ウェブページ（
+ハッカソン用（
+[Twitter][twitter_int]
+/
 [Web Page][web_page]
 )
 
@@ -111,6 +113,7 @@ Bootstrap4
 
 [cdn]:https://tonari-it.com/bootstrap-cdn/
 [difference]:https://coliss.com/articles/build-websites/operation/work/migrate-from-bootstrap3-to-bootstrap4.html
-[twitter]:https://twitter.com/int08063060
+[twitter_crafter]:https://twitter.com/miyazaki_circle
+[twitter_int]:https://twitter.com/int08063060
 [twitter_kaisan]:https://twitter.com/shimonitanegii
 [web_page]:https://myzk-int.github.io
